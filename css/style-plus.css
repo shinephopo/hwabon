@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'SangSangFlowerRoad';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangFlowerRoad.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo{
+    font-family: 'SangSangFlowerRoad';
+}
+.main-color{
+    color:#3b725f;
+}
+.main-bg-color{
+    background-color: #3b725f;
+    color: #fff;
+}
+.sub-color{
+    color: #2c4c32;
+}
+.font-w-500{
+    font-weight: 500;
+}
+.next-line{display: block;}
+.padd0{padding: 0;}
+.padd150{padding: 150px 0;}
+.mat10{margin-top: 10px;}
+.mat20{margin-top: 20px;}
+.mat30{margin-top: 30px;}
+.mab30{margin-bottom: 30px;}
+.image-frame{
+    width: 100%;
+    overflow: hidden;
+}
+.image-frame img{
+    object-fit: cover;
+    width: 100%;
+}

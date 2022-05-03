@@ -16,13 +16,14 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/style-plus.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+                <li class="sidebar-brand"><a class="logo" href="#page-top">삼국유사화본마을</a></li>
                 <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
                 <li class="sidebar-nav-item"><a href="#about">About</a></li>
                 <li class="sidebar-nav-item"><a href="#services">Services</a></li>
@@ -33,14 +34,14 @@
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">삼국유사화본마을</h1>
-                <h3 class="mb-5"><em>낭만이 있는 화본기차여행, 군위로 떠나세요</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">자세히보기</a>
+                <h1 class="mb-1 logo main-color">삼국유사화본마을</h1>
+                <h3 class="mb-5 mat20 sub-color font-w-500"><em>낭만이 있는 화본기차여행, 군위로 떠나세요</em></h3>
+                <a class="btn btn-xl main-bg-color" href="#services">자세히보기</a>
             </div>
         </header>
         
         <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
+        <section class="content-section main-bg-color text-white text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     <h3 class="text-secondary mb-0">Services</h3>
@@ -74,29 +75,32 @@
         </section>
         <!-- About-->
         <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg-5 ">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>낭만이 있는 화본기차여행</h2>
+                        <h2 class="text-center">화본마을은..</h2>
                         <p class="lead mb-5">
-                            This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            <a href="https://unsplash.com/">Unsplash</a>
-                            !
+                            지역의 문화자원을 개발과 발굴로 삶에 경쟁적인 상품화 속에서 우리 고장이 확실한 자리매김을 할 수 있도록 한없는 노력이 우리 지역민의 과제가 됩니다. ​이 모든 사업을 위하여 우리 위원회는 열성을 다해 노력과 봉사로 차근차근 살기 좋은 삶의 고장을 창출하는데 온 정성을 다하겠습니다.
                         </p>
-                        <a class="btn btn-dark btn-xl" href="#services">What We Offer</a>
+                        <p class="text-center"><a class="btn btn-dark btn-xl" href="#callout">화본역</a></p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
+        <section class="callout padd150">
+            <div class="container px-4 px-lg-5">
+                <h2 class="mx-auto mb-5 text-center sub-color">
+                    가장 아름다운 간이역
                 </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+                <div class="image-frame"><img src="assets/img/hwabon-station.jpg" alt=""></div>
+                <p>
+                    <span class="next-line mat30 mab30">1930년대 일본식 건물을 그대로 보존하고 있는 화본역은 전국네티즌이 뽑은 가장 아름다운 간이역입니다. 화본역은 현재에도 무궁화호가 운행되고 있으며 2012년 10월에 방영된 1박 2일 등과 같이 여러 프로그램의 촬영장소로 사용되기도 하였습니다.</span>
+                    화본역 입구에는 오랜 세월 함께한 아름드리 느티나무와 박해수 시인의 시비가 있으며 뒤로는 새마을호 동차가 보입니다. 이는 실제 동차가 아닌 새마을호 카페객차에 모형 전두부를 붙인 것입니다.
+                    <span class="next-line mat30 mab30">2019년부터는 가상현실 게임VRChat에서 한국인이 이 역을 베이스로 한 월드맵을 제작하여 한국인들이 운집하는 퍼블릭월드로 각광받기 시작했습니다. 이전에는 일본풍 월드에서 모였는데, 해당 월드들이 퍼블릭에 등록할 수 없게 되면서 화본역 월드가 반사이익을 얻은 것입니다. 이에 따라 성지순례나 정모를 하러 오는 사람도 있는 듯합니다.</span>
+                </p>                
+                <p class="text-center"><a class="btn main-bg-color btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a></p>
+                
             </div>
         </section>
         <!-- Portfolio-->
@@ -104,7 +108,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">Photo Zone</h3>
-                    <h2 class="mb-5">추억의 장소</h2>
+                    <h2 class="mb-5 sub-color">추억의 장소</h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
@@ -155,11 +159,9 @@
             </div>
         </section>
         <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
+        <section class="content-section main-bg-color text-white">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+                <h2 class="mb-4">삼국유사의 고장, 군위로 놀러오세요!</h2>
             </div>
         </section>
         <!-- Map-->

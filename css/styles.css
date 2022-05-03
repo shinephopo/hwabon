@@ -11339,7 +11339,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #3b725f;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11404,7 +11404,7 @@ html {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: #3b725f;
   line-height: 50px;
   z-index: 999;
 }
@@ -11427,7 +11427,7 @@ html {
   background-size: cover;
 }
 .callout h2, .callout .h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   display: block;
   max-width: 30rem;
@@ -11444,12 +11444,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #3b725f;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #2c4c32;
   text-decoration: none;
 }
 
@@ -11491,7 +11491,7 @@ footer.footer .social-link:hover {
     height: 100vh;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
 }
 
@@ -11554,7 +11554,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #3b725fcc;
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
